@@ -1,0 +1,52 @@
+.formInfo-container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);background-color: rgb(194, 192, 192,0.5);
+}
+@media screen and (max-width:600px) {
+    .formInfo-container{
+        padding: 10px;
+    }
+}
+.formInfo-wrapper{
+    background-color: #fff;
+    width: 100%;
+    max-width: 500px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+.formInfo-wrapper h3{
+    text-align: right;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.formInfo-wrapper h3:hover{
+    color: red;
+    transition: all 0.2s ease-in-out;
+}
+.formInfo-wrapper .info{
+    display: flex;
+    justify-content: space-between;
+    margin:14px 0 ;
+}
+.formInfo-wrapper .G-button{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.formInfo-wrapper .G-button button{
+    width: 50%;
+    height: 40px;
+} 

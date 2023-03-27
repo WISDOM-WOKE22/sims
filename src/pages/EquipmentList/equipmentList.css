@@ -1,0 +1,26 @@
+.equipment-list-container, .equipment-list-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.equipment-list-wrapper{
+    width: 100%;
+    max-width: 500px;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 10px;
+}
+table{
+    margin-top: 13px;
+    box-shadow: 0 0 5px lightgray;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+tr{
+    cursor: pointer;
+}
+tr:hover{
+    background-color: rgb(209, 206, 206);
+}
+td{
+    height: 30px;
+}
